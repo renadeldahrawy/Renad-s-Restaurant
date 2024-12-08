@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-shadow: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  
+}
+
+#btn1{
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+}
+
+#menu_itemss{
+    text-align: center;
+}
+#btn1:hover{
+    color: red;
+    cursor: pointer;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.navigation-bar {
+    background: #000000;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+.welcome img{
+    width: 2300px;
+}
+.navigation-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.welcome {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: url('images/photo14.jpg') no-repeat center;
+    color: black;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+  
+}
+.welcome h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+
+.other-menuItems {
+    text-align: center;
+    padding: 50px 10px;
+}
+
+.menu-items .items{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+text-align: center;
+    padding: 50px 10px;
+
+}
+.items,
+.sub-menuItems{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+}
+
+.item img,
+.sub-menuItems img {
+    width: 200px;
+    height: 200px;
+    
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  
+}
+.item img:hover,
+.sub-menuItems img:hover {
+    transform: scale(1.05);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    margin: 0;
+}
+
+form input,
+form textarea,
+form button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+footer h2{
+    margin-left: 500px;
+}
+.contact{
+    margin-left: 500px;
+}
+
+.contactUs{
+    text-align: center; 
+    padding-top: 50px;
+}
+
+.contact-info{
+  text-align: center;
+    margin-top: 20px;
+}
+ 
+
+a:hover{
+    color: red;
+}
